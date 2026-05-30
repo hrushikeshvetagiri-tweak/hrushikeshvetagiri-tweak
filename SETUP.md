@@ -10,10 +10,10 @@ This folder contains everything for your personal GitHub profile page — the RE
 
 | File | Purpose |
 |------|---------|
-| `README.md` | **Recommended** — dark theme, banner, stats, streak, product showcase |
-| `README.minimal.md` | Shorter variant — same banner + stats, less copy |
-| `assets/logo.png` | Tweak product logo (PNG — GitHub renders this reliably) |
-| `assets/tweak-banner.svg` | Source art only — **GitHub blocks SVG images in READMEs**; the live README uses [capsule-render](https://github.com/kyechan99/capsule-render) + `logo.png` instead |
+| `README.md` | **Recommended** — native GitHub styling, Mermaid, collapsible sections, stats |
+| `README.minimal.md` | Shorter variant — logo, one diagram, stats |
+| `assets/logo.png` | Tweak product logo (PNG) |
+| `assets/tweak-banner.svg` | Unused source art — README uses GitHub's own background, no banner |
 
 ---
 
@@ -126,11 +126,10 @@ The README uses these services (free, no API key):
 - New accounts need at least **one public commit** for language/stats to populate.
 - Wait 5–10 minutes after first push — caches refresh slowly.
 
-**If banner or stats look broken:**
+**If stats look broken:**
 
-- **SVG banners do not render** on GitHub READMEs (security policy). The README uses **capsule-render** (PNG) + `assets/logo.png`.
-- **Stats cards:** `github-readme-stats.vercel.app` is often down (503). The README uses **github-profile-summary-cards** + **streak-stats.demolab.com** instead.
-- Ensure `assets/logo.png` is on the **`main`** branch.
+- Cards use `theme=github` / `theme=default` so they match GitHub's native light/dark page — no custom background colors in the README.
+- If images show as links, wait a few minutes or hard-refresh the profile page.
 
 ---
 

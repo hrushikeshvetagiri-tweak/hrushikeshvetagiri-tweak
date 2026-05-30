@@ -1,59 +1,29 @@
-<!-- GitHub profile README — minimal dark variant -->
+<h2 align="center">Vetagiri Hrushikesh</h2>
 
-<div align="center">
+<p align="center">
+  Founder · <a href="https://tweak.page"><strong>Tweak</strong></a> — feedback on the live DOM, not in Slack screenshots
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=6366f1&height=120&section=header&text=TWEAK&fontSize=36&fontColor=fff" alt="TWEAK" width="100%" />
+<p align="center">
+  <a href="https://tweak.page"><img src="https://raw.githubusercontent.com/hrushikeshvetagiri-tweak/hrushikeshvetagiri-tweak/main/assets/logo.png" width="56" alt="Tweak" /></a>
+</p>
 
-<br />
-
-<a href="https://tweak.page">
-  <img src="https://raw.githubusercontent.com/hrushikeshvetagiri-tweak/hrushikeshvetagiri-tweak/main/assets/logo.png" alt="Tweak" width="72" />
-</a>
-
-<br /><br />
-
-<img src="https://github.com/hrushikeshvetagiri-tweak.png" width="88" alt="Vetagiri Hrushikesh" />
-
-### Vetagiri Hrushikesh
-
-Founder · [**Tweak**](https://tweak.page)
-
-*Live website review on the real DOM — feedback to code.*
-
-<br />
-
-[![tweak.page](https://img.shields.io/badge/tweak.page-live_review-6366f1?style=flat-square)](https://tweak.page)
-[![Extension](https://img.shields.io/badge/Chrome-extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tweak/fnfobegjifomgobgilaemihpcpidjamc)
-
-</div>
-
----
-
-I replace screenshot-and-Slack feedback loops with **structured review on the live page** — embed for clients, extension + hub for developers, optional **MCP** for AI handoff.
+<p align="center">
+  <a href="https://tweak.page"><img src="https://img.shields.io/badge/tweak.page-→-181717?style=flat-square" alt="tweak.page" /></a>
+  <a href="https://chromewebstore.google.com/detail/tweak/fnfobegjifomgobgilaemihpcpidjamc"><img src="https://img.shields.io/badge/extension-→-181717?style=flat-square&logo=googlechrome&logoColor=white" alt="extension" /></a>
+</p>
 
 ```mermaid
 flowchart LR
-  Client --> Embed["Embed / link"]
-  Embed --> Issues["Issues"]
-  Issues --> Dev["Hub + extension"]
-  Issues --> MCP["MCP · Cursor"]
-  Dev --> Ship["Resolve"]
+  Client --> Embed --> Issues --> Dev["hub + ext"] --> Ship["✅"]
+  Issues --> MCP["Cursor MCP"]
 ```
 
-<br />
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hrushikeshvetagiri-tweak&theme=github" height="150" alt="stats" />
+  <img src="https://streak-stats.demolab.com/?user=hrushikeshvetagiri-tweak&theme=default&hide_border=true" height="150" alt="streak" />
+</p>
 
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hrushikeshvetagiri-tweak&theme=6366f1" alt="Stats" height="165" />
-&nbsp;
-<img src="https://streak-stats.demolab.com/?user=hrushikeshvetagiri-tweak&theme=dark&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="Streak" height="165" />
-
-</div>
-
-<br />
-
-<div align="center">
-
-[`tweak.page`](https://tweak.page) · [`/docs/mcp`](https://tweak.page/docs/mcp) · [`@hrushikeshvetagiri-tweak`](https://github.com/hrushikeshvetagiri-tweak)
-
-</div>
+<p align="center">
+  <a href="https://tweak.page">tweak.page</a> · <a href="https://tweak.page/docs/mcp">MCP</a>
+</p>
