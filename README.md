@@ -1,106 +1,153 @@
-<h1 align="center">Hey, I'm Hrushikesh 👋</h1>
-
-<h3 align="center">Vetagiri Hrushikesh · technical founder · builder</h3>
-
 <p align="center">
-  <img src="https://github.com/hrushikeshvetagiri-tweak.png" width="110" alt="Hrushikesh" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=6366f1&height=64&section=header&text=Hrushikesh&fontSize=28&fontColor=ffffff&animation=fadeIn" alt="" width="100%" />
 </p>
 
 <p align="center">
-  I like taking messy, everyday problems and shipping software that actually fits how people work.
+  <img src="https://github.com/hrushikeshvetagiri-tweak.png" width="96" alt="Hrushikesh" />
+</p>
+
+<h3 align="center">Vetagiri Hrushikesh</h3>
+<p align="center"><em>technical founder · builder · hyderabad</em></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/📍-Hyderabad-6366f1?style=for-the-badge&labelColor=21262D" alt="Hyderabad" />
+  <img src="https://img.shields.io/badge/🛠-building_in_public-6366f1?style=for-the-badge&labelColor=21262D" alt="Building in public" />
+  <img src="https://img.shields.io/badge/☕-always_shipping-6366f1?style=for-the-badge&labelColor=21262D" alt="Always shipping" />
 </p>
 
 <p align="center">
-  <a href="https://tweak.page"><img src="https://img.shields.io/badge/📍_Hyderabad-India-181717?style=flat-square" alt="Hyderabad" /></a>
-  <a href="https://tweak.page"><img src="https://img.shields.io/badge/🚀_Building-Tweak-181717?style=flat-square" alt="Building Tweak" /></a>
-  <a href="https://github.com/tweak-page"><img src="https://img.shields.io/badge/👨‍💻_Shipping-in_public-181717?style=flat-square" alt="Building in public" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=21262D&height=1&section=footer&text=&fontSize=1" alt="" width="92%" />
 </p>
 
----
+<p align="center">
+  <sub>I take messy, everyday problems and ship software that fits how people actually work.</sub>
+</p>
 
-> I'm a developer who started noticing the same frustration on every client project:
-> feedback arrives as screenshots and vague messages, and someone still has to **guess the selector**.
-> So I stopped waiting for the perfect tool and started building one.
+<br />
 
-### About me
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
 
-- **Who I am** — developer turned founder, learning sales and customer conversations the same way I learned to code: by doing it badly first, then better
-- **How I think** — start with the problem, not the stack; if a client can't use it without a manual, I haven't finished
-- **What I care about** — shipping on real client sites (SPAs, staging URLs, messy production DOMs), not demo-ware
-- **Where I am** — Hyderabad, building [**Tweak**](https://tweak.page) and talking to agencies & dev shops who live in the screenshot → Slack → guess loop
+**🧠 who**
+
+developer → founder  
+learning sales the same way I learned code — by doing
+
+  </td>
+    <td width="33%" align="center" valign="top">
+
+**⚡ how**
+
+problem first, stack second  
+if it breaks on a real client site, it's not done
+
+  </td>
+    <td width="33%" align="center" valign="top">
+
+**🎯 now**
+
+building [**Tweak**](https://tweak.page)  
+for teams stuck in screenshot → slack → guess
+
+  </td>
+  </tr>
+</table>
+
+<br />
+
+> *Every client project had the same friction — feedback as screenshots, someone guessing the selector. I stopped waiting for the perfect tool and started building.*
+
+<br />
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=6366f1&height=36&section=header&text=my+loop&fontSize=14&fontColor=ffffff" alt="" width="100%" />
+</p>
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#6366f1', 'primaryTextColor':'#fff', 'lineColor':'#6366f1', 'secondaryColor':'#21262d'}}}%%
 flowchart LR
-  A["Notice a real pain"] --> B["Ship something small"]
-  B --> C["Put it in front of users"]
-  C --> D["Listen · fix · repeat"]
+  A["notice pain"] --> B["ship small"]
+  B --> C["real users"]
+  C --> D["listen + fix"]
   D --> A
 ```
 
----
+<br />
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=21262D&height=36&section=header&text=more+about+me&fontSize=14&fontColor=c9d1d9" alt="" width="100%" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
 
 <details open>
-<summary><strong>What I'm doing right now</strong></summary>
+<summary><b>what i'm building</b></summary>
 <br />
 
-Building **[Tweak](https://tweak.page)** — the product I wished existed when clients sent screenshot folders instead of clear feedback.
+**[Tweak](https://tweak.page)** — live website review on the real page. The tool I wished existed when clients sent screenshot folders.
 
-One line: **live website review on the real page**, for teams who ship sites for other people.
+→ [tweak.page](https://tweak.page) · [extension](https://chromewebstore.google.com/detail/tweak/fnfobegjifomgobgilaemihpcpidjamc) · [@tweak-page](https://github.com/tweak-page)
 
-That's my main focus. Everything else — outreach, demos, docs, MCP — supports getting that into the hands of people who feel the same pain I did.
+</details>
 
-<p align="center">
-  <a href="https://tweak.page">tweak.page</a>
-  ·
-  <a href="https://chromewebstore.google.com/detail/tweak/fnfobegjifomgobgilaemihpcpidjamc">Chrome extension</a>
-  ·
-  <a href="https://github.com/tweak-page">@tweak-page</a>
-</p>
+  </td>
+    <td width="50%" valign="top">
+
+<details>
+<summary><b>how i build</b></summary>
+<br />
+
+full stack — overlay, extension, API, infra. The hard part is making it work on **real** sites.
+
+`TypeScript` · `Preact` · `Workers` · `D1` · `Bun` · `MCP`
 
 </details>
 
 <details>
-<summary><strong>How I build</strong></summary>
+<summary><b>outside code</b></summary>
 <br />
 
-I work across the stack — UI on the page, extension, API, infra — because the hard part is how it all connects on a **real** site, not in a slide deck.
-
-`TypeScript` · `Preact` · `Cloudflare Workers` · `D1` · `R2` · `Bun` · `WXT` · `MCP`
-
-Things I'm actively getting better at: founder conversations, saying no to scope creep, and shipping before the architecture diagram is perfect.
+rehearsing pitches out loud · meeting founders · useful before loud
 
 </details>
 
-<details>
-<summary><strong>Outside the code</strong></summary>
+  </td>
+  </tr>
+</table>
+
 <br />
 
-- Rehearsing how to explain what I build (out loud, not just in docs)
-- Meeting founders and agency owners who've felt the same feedback pain
-- Trying to be useful before being loud — build in public, not perform in public
-
-</details>
-
----
-
-<h3 align="center">GitHub activity</h3>
-
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hrushikeshvetagiri-tweak&theme=github" alt="Stats" height="160" />
-  <img src="https://streak-stats.demolab.com/?user=hrushikeshvetagiri-tweak&theme=default&hide_border=true" alt="Streak" height="160" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=6366f1&height=36&section=header&text=activity&fontSize=14&fontColor=ffffff" alt="" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hrushikeshvetagiri-tweak&theme=github" alt="Languages" height="160" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hrushikeshvetagiri-tweak&theme=github_dark" alt="Stats" height="155" />
+  <img src="https://streak-stats.demolab.com/?user=hrushikeshvetagiri-tweak&theme=dark&hide_border=true&background=161B22&ring=6366F1&fire=6366F1&currStreakLabel=6366F1&sideLabels=6366F1&dates=8B949E&stroke=30363D" alt="Streak" height="155" />
 </p>
 
----
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hrushikeshvetagiri-tweak&theme=github_dark" alt="Languages" height="155" />
+</p>
+
+<br />
 
 <p align="center">
-  <strong>Always happy to connect</strong> — especially if you ship websites, run an agency, or are figuring out founder life too.<br />
-  <a href="mailto:hrushikesh.vetagiri@tweak.page">hrushikesh.vetagiri@tweak.page</a>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=6366f1&height=48&section=footer&text=let's+connect&fontSize=16&fontColor=ffffff" alt="" width="100%" />
+</p>
+
+<p align="center">
+  <sub>especially if you ship websites, run an agency, or are figuring out founder life</sub><br />
+  <a href="mailto:hrushikesh.vetagiri@tweak.page"><b>hrushikesh.vetagiri@tweak.page</b></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/hrushikeshvetagiri-tweak">@hrushikeshvetagiri-tweak</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=21262D&height=1&section=footer&text=&fontSize=1" alt="" width="92%" />
 </p>
