@@ -12,7 +12,8 @@ This folder contains everything for your personal GitHub profile page — the RE
 |------|---------|
 | `README.md` | **Recommended** — dark theme, banner, stats, streak, product showcase |
 | `README.minimal.md` | Shorter variant — same banner + stats, less copy |
-| `assets/tweak-banner.svg` | Wide dark banner with Tweak mark + your name |
+| `assets/logo.png` | Tweak product logo (PNG — GitHub renders this reliably) |
+| `assets/tweak-banner.svg` | Source art only — **GitHub blocks SVG images in READMEs**; the live README uses [capsule-render](https://github.com/kyechan99/capsule-render) + `logo.png` instead |
 
 ---
 
@@ -125,18 +126,11 @@ The README uses these services (free, no API key):
 - New accounts need at least **one public commit** for language/stats to populate.
 - Wait 5–10 minutes after first push — caches refresh slowly.
 
-**If banner is broken (404 image):**
+**If banner or stats look broken:**
 
-- Banner URL points to your profile repo:  
-  `raw.githubusercontent.com/hrushikeshvetagiri-tweak/hrushikeshvetagiri-tweak/main/assets/tweak-banner.svg`
-- Fix: ensure `assets/tweak-banner.svg` is pushed to **`main`** branch.
-- Temporary fallback — use product logo until banner is uploaded:
-
-  ```html
-  <a href="https://tweak.page">
-    <img src="https://tweak.page/favicon.svg" alt="Tweak" width="72" />
-  </a>
-  ```
+- **SVG banners do not render** on GitHub READMEs (security policy). The README uses **capsule-render** (PNG) + `assets/logo.png`.
+- **Stats cards:** `github-readme-stats.vercel.app` is often down (503). The README uses **github-profile-summary-cards** + **streak-stats.demolab.com** instead.
+- Ensure `assets/logo.png` is on the **`main`** branch.
 
 ---
 

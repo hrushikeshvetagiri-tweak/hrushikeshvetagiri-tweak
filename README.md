@@ -1,16 +1,19 @@
-<!-- GitHub profile README — dark variant (recommended) -->
+<!-- GitHub profile README — dark variant -->
 <!-- Repo: github.com/hrushikeshvetagiri-tweak/hrushikeshvetagiri-tweak -->
 
 <div align="center">
 
-<!-- Banner: upload assets/tweak-banner.svg from this folder, then this URL works -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0d1117&height=160&section=header&text=TWEAK&fontSize=48&fontColor=f4f4f5&animation=fadeIn" alt="TWEAK" width="100%" />
+
+<br />
+
 <a href="https://tweak.page">
-  <img src="https://raw.githubusercontent.com/hrushikeshvetagiri-tweak/hrushikeshvetagiri-tweak/main/assets/tweak-banner.svg" alt="Tweak — live website review on the real DOM" width="100%" />
+  <img src="https://raw.githubusercontent.com/hrushikeshvetagiri-tweak/hrushikeshvetagiri-tweak/main/assets/logo.png" alt="Tweak logo" width="88" />
 </a>
 
 <br /><br />
 
-<img src="https://github.com/hrushikeshvetagiri-tweak.png" alt="Vetagiri Hrushikesh" width="100" style="border-radius: 50%;" />
+<img src="https://github.com/hrushikeshvetagiri-tweak.png" alt="Vetagiri Hrushikesh" width="100" />
 
 ### Vetagiri Hrushikesh
 
@@ -22,7 +25,7 @@
 
 [![Tweak](https://img.shields.io/badge/Tweak-tweak.page-6366f1?style=for-the-badge)](https://tweak.page)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tweak/fnfobegjifomgobgilaemihpcpidjamc)
-[![MCP](https://img.shields.io/badge/MCP-tweak--mcp-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)](https://tweak.page/docs/mcp)
+[![MCP](https://img.shields.io/badge/MCP-tweak--mcp-8b5cf6?style=for-the-badge)](https://tweak.page/docs/mcp)
 [![Status](https://img.shields.io/badge/Status-Shipping-22c55e?style=for-the-badge)](#)
 
 </div>
@@ -35,10 +38,13 @@ I build **live website review infrastructure** — the layer between vague clien
 
 Screenshot threads and Slack messages lose selectors, scroll context, and intent. **Tweak** keeps feedback on the **real DOM**: clients pin issues on staging or production; developers triage in a hub, resolve work, and optionally hand structured issues to AI via MCP.
 
-```text
-Client  →  embed / share link  →  structured issues  →  hub + extension  →  PR / resolve
-                                              ↘
-                                         tweak-mcp in Cursor
+```mermaid
+flowchart LR
+  Client["Client"] --> Embed["Embed / share link"]
+  Embed --> Issues["Structured issues"]
+  Issues --> Hub["Hub + extension"]
+  Hub --> Resolve["PR / resolve"]
+  Issues --> MCP["tweak-mcp · Cursor"]
 ```
 
 ---
@@ -51,6 +57,28 @@ Client  →  embed / share link  →  structured issues  →  hub + extension  �
 | **Developers** | Chrome extension + hub `/s/{id}` — claim, Go To, link PRs, resolve. |
 | **AI (optional)** | `tweak-mcp` — canonical issues in Cursor, VS Code, Claude. |
 
+```mermaid
+flowchart TB
+  subgraph site ["Customer site · staging or production"]
+    Embed["@tweak/embed · real DOM overlay"]
+  end
+
+  subgraph surfaces ["Review surfaces"]
+    Ext["Chrome extension"]
+    Hub["Hub /s/{id}"]
+    MCP["tweak-mcp"]
+  end
+
+  subgraph cloud ["Cloud · one review id"]
+    API["Workers · D1 · R2 · ops_json"]
+  end
+
+  Embed --> API
+  Ext --> API
+  Hub --> API
+  MCP --> API
+```
+
 **Live-site-first** · **One review, one truth** · **Embed + extension, one overlay** · **AI-native MCP**
 
 → [tweak.page](https://tweak.page) · [Chrome Web Store](https://chromewebstore.google.com/detail/tweak/fnfobegjifomgobgilaemihpcpidjamc)
@@ -61,27 +89,51 @@ Client  →  embed / share link  →  structured issues  →  hub + extension  �
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=hrushikeshvetagiri-tweak&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&icon_color=6366f1&include_all_commits=true&count_private=true" alt="GitHub stats" height="165" />
-
-<img src="https://github-readme-streak-stats.demolab.com/?user=hrushikeshvetagiri-tweak&theme=transparent&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1&sideLabels=6366F1&dates=71717A&stroke=30363D" alt="GitHub streak" height="165" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hrushikeshvetagiri-tweak&theme=6366f1" alt="Profile details" height="180" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hrushikeshvetagiri-tweak&theme=6366f1" alt="GitHub stats" height="180" />
 
 <br />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrushikeshvetagiri-tweak&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8" alt="Top languages" height="165" />
+<img src="https://streak-stats.demolab.com/?user=hrushikeshvetagiri-tweak&theme=dark&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1&sideLabels=6366F1&dates=71717A" alt="GitHub streak" height="180" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hrushikeshvetagiri-tweak&theme=6366f1" alt="Top languages" height="180" />
 
 </div>
-
-> Stats cards need a **public** profile and at least some activity. They update automatically — no config after push.
 
 ---
 
 ## Stack
 
-`Preact` · `Signals` · `TypeScript` · `Tailwind v4` · `Cloudflare Workers` · `D1` · `R2` · `Hono` · `WXT` · `MCP` · `Bun` · `Turborepo`
+```mermaid
+mindmap
+  root((Tweak stack))
+    Frontend
+      Preact
+      Signals
+      Tailwind v4
+      TypeScript
+    Platform
+      Cloudflare Workers
+      D1
+      R2
+      Hono
+    Tools
+      WXT extension
+      tweak-mcp
+      Bun
+      Turborepo
+```
 
 ---
 
 ## Focus now
+
+```mermaid
+flowchart LR
+  A["Embed-first review"] --> B["Agencies & dev shops"]
+  C["Client feedback"] --> D["Cursor MCP"]
+  D --> E["Implementation loop"]
+  F["Persist + SPA nav"] --> G["Real client sites"]
+```
 
 - Embed-first review for agencies and dev shops
 - Client feedback → Cursor MCP → implementation loop
